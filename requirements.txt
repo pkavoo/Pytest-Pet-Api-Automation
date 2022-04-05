@@ -1,0 +1,14 @@
+allure-pytest
+black
+Faker
+locust
+pytest
+environs
+requests
+pytest
+pytest-custom-exit-code
+assertpy
+allure-pytest
+allure-python-commons
+pytest-xdist
+
