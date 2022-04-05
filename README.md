@@ -1,6 +1,6 @@
 # Introduction
 
-Test project for Pet store API automation. The project automates the CRUD pet store API and an allure report artefact is generated.
+Automation test project for Pet store API automation. The project automates the CRUD pet store API and an allure report artefact is generated.
 
 # Project Setup
 
@@ -31,6 +31,8 @@ allure serve results/
 ```
 
 
+
+
 ## Framework Organization
 
 ```
@@ -46,3 +48,13 @@ allure serve results/
 ├── results                 - e2e results directory
 └── setup.cfg               - Pytest config
 ```
+
+## Known Bugs
+create endpoint failing while testing thus blocking update and delete. Below request details working on postman but failing while executing the script.
+{"name": "Doggie", "photoUrls": ["Test url"], "status":"available"}
+
+## Contact Details
+For support or collaboration hit me up pkavoo@gmail.com
+
+## License
+MIT
